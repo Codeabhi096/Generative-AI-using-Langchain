@@ -3,7 +3,7 @@ from typing import Optional
 
 class Student(BaseModel):
 
-    name: str = 'nitish'
+    name: str = 'Abhishek'
     age: Optional[int] = None
     email: EmailStr
     cgpa: float = Field(gt=0, lt=10, default=5, description='A decimal value representing the cgpa of the student')
